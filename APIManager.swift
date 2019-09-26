@@ -8,7 +8,6 @@
 
 import Foundation
 
-fileprivate let API_KEY = "787ecbe460ac4e3884c3f0a975052c38"
 
 class APIManager{
     
@@ -16,7 +15,6 @@ class APIManager{
     
     fileprivate func searchUrl(baseURL: String,for topic: String) -> URL? {
         var urlComponent = URLComponents(string: baseURL)
-        
         let queryItem1 = topic == "top-headlines" ? URLQueryItem(name: "country", value: "in") : URLQueryItem(name: "q", value: topic)
         let queryItem2 = URLQueryItem(name: "apiKey", value: API_KEY)
         urlComponent?.queryItems = [queryItem1,queryItem2]
