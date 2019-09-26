@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5591585F2337514400118A11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5591585E2337514400118A11 /* AppDelegate.swift */; };
+		559158612337514400118A11 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559158602337514400118A11 /* FirstViewController.swift */; };
+		559158662337514B00118A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559158652337514B00118A11 /* Assets.xcassets */; };
+		559158692337514B00118A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559158672337514B00118A11 /* LaunchScreen.storyboard */; };
+		5591587123376FCC00118A11 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5591587023376FCC00118A11 /* NewsTableViewCell.swift */; };
+		559158732337733400118A11 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559158722337733400118A11 /* APIManager.swift */; };
+		559158752337884F00118A11 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559158742337884F00118A11 /* NewsModel.swift */; };
+		9B572614233B54B400627DA2 /* NewsModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B572611233B54B400627DA2 /* NewsModelTests.swift */; };
+		9B572615233B54B400627DA2 /* NewsDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B572612233B54B400627DA2 /* NewsDetailViewControllerTests.swift */; };
+		9B829F7E2338961F00E2B898 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B829F7D2338961F00E2B898 /* NewsDetailViewController.swift */; };
+		9B829FAE2338D28B00E2B898 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B829FAD2338D28B00E2B898 /* AppDelegate.swift */; };
+		9B829FB22338D28C00E2B898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B829FB12338D28C00E2B898 /* Assets.xcassets */; };
+		9B829FB52338D28C00E2B898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B829FB32338D28C00E2B898 /* Main.storyboard */; };
+		9B829FBB2338D36E00E2B898 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559158742337884F00118A11 /* NewsModel.swift */; };
+		9B829FBC2338D3A100E2B898 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559158722337733400118A11 /* APIManager.swift */; };
+		9B829FC12338F4EF00E2B898 /* SupportingCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B829FBF2338F48000E2B898 /* SupportingCode.swift */; };
+		9B829FC32339CF5C00E2B898 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B829FC22339CF5C00E2B898 /* SplitViewController.swift */; };
+		9B829FC52339D58200E2B898 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B829FC42339D58200E2B898 /* NewsListViewController.swift */; };
+		9B829FC72339D59400E2B898 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B829FC62339D59400E2B898 /* NewsDetailViewController.swift */; };
+		9B829FCA2339E47A00E2B898 /* SupportingCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B829FC92339E47A00E2B898 /* SupportingCode.swift */; };
+		9B829FCC2339F89C00E2B898 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B829FCB2339F89C00E2B898 /* WindowController.swift */; };
+		9B829FCE233A129500E2B898 /* NewsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B829FCD233A129500E2B898 /* NewsListCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B57260B233B547C00627DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559158532337514400118A11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5591585A2337514400118A11;
+			remoteInfo = "All About Today";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5591585B2337514400118A11 /* All About Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "All About Today.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5591585E2337514400118A11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		559158602337514400118A11 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		559158652337514B00118A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		559158682337514B00118A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5591586A2337514B00118A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5591587023376FCC00118A11 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		559158722337733400118A11 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		559158742337884F00118A11 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		9B572606233B547C00627DA2 /* All About Today - iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "All About Today - iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B57260A233B547C00627DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B572611233B54B400627DA2 /* NewsModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsModelTests.swift; sourceTree = "<group>"; };
+		9B572612233B54B400627DA2 /* NewsDetailViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailViewControllerTests.swift; sourceTree = "<group>"; };
+		9B829F7D2338961F00E2B898 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		9B829FAB2338D28B00E2B898 /* All About Today-MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "All About Today-MacOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B829FAD2338D28B00E2B898 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B829FB12338D28C00E2B898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B829FB42338D28C00E2B898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B829FB62338D28C00E2B898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B829FB72338D28C00E2B898 /* All_About_Today_MacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = All_About_Today_MacOS.entitlements; sourceTree = "<group>"; };
+		9B829FBF2338F48000E2B898 /* SupportingCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportingCode.swift; sourceTree = "<group>"; };
+		9B829FC22339CF5C00E2B898 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		9B829FC42339D58200E2B898 /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
+		9B829FC62339D59400E2B898 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		9B829FC82339DE2B00E2B898 /* All About Today-MacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "All About Today-MacOS.entitlements"; sourceTree = "<group>"; };
+		9B829FC92339E47A00E2B898 /* SupportingCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportingCode.swift; sourceTree = "<group>"; };
+		9B829FCB2339F89C00E2B898 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		9B829FCD233A129500E2B898 /* NewsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		559158582337514400118A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B572603233B547C00627DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B829FA82338D28B00E2B898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		559158522337514400118A11 = {
+			isa = PBXGroup;
+			children = (
+				559158722337733400118A11 /* APIManager.swift */,
+				559158742337884F00118A11 /* NewsModel.swift */,
+				5591585D2337514400118A11 /* All About Today */,
+				9B829FAC2338D28B00E2B898 /* All About Today-MacOS */,
+				9B572607233B547C00627DA2 /* All About Today - iOS Tests */,
+				5591585C2337514400118A11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5591585C2337514400118A11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5591585B2337514400118A11 /* All About Today.app */,
+				9B829FAB2338D28B00E2B898 /* All About Today-MacOS.app */,
+				9B572606233B547C00627DA2 /* All About Today - iOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5591585D2337514400118A11 /* All About Today */ = {
+			isa = PBXGroup;
+			children = (
+				5591585E2337514400118A11 /* AppDelegate.swift */,
+				559158602337514400118A11 /* FirstViewController.swift */,
+				5591587023376FCC00118A11 /* NewsTableViewCell.swift */,
+				9B829F7D2338961F00E2B898 /* NewsDetailViewController.swift */,
+				9B829FBF2338F48000E2B898 /* SupportingCode.swift */,
+				559158652337514B00118A11 /* Assets.xcassets */,
+				559158672337514B00118A11 /* LaunchScreen.storyboard */,
+				5591586A2337514B00118A11 /* Info.plist */,
+			);
+			path = "All About Today";
+			sourceTree = "<group>";
+		};
+		9B572607233B547C00627DA2 /* All About Today - iOS Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9B572612233B54B400627DA2 /* NewsDetailViewControllerTests.swift */,
+				9B572611233B54B400627DA2 /* NewsModelTests.swift */,
+				9B57260A233B547C00627DA2 /* Info.plist */,
+			);
+			path = "All About Today - iOS Tests";
+			sourceTree = "<group>";
+		};
+		9B829FAC2338D28B00E2B898 /* All About Today-MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				9B829FAD2338D28B00E2B898 /* AppDelegate.swift */,
+				9B829FCB2339F89C00E2B898 /* WindowController.swift */,
+				9B829FC22339CF5C00E2B898 /* SplitViewController.swift */,
+				9B829FC42339D58200E2B898 /* NewsListViewController.swift */,
+				9B829FCD233A129500E2B898 /* NewsListCell.swift */,
+				9B829FC62339D59400E2B898 /* NewsDetailViewController.swift */,
+				9B829FC92339E47A00E2B898 /* SupportingCode.swift */,
+				9B829FB12338D28C00E2B898 /* Assets.xcassets */,
+				9B829FB32338D28C00E2B898 /* Main.storyboard */,
+				9B829FB62338D28C00E2B898 /* Info.plist */,
+				9B829FB72338D28C00E2B898 /* All_About_Today_MacOS.entitlements */,
+				9B829FC82339DE2B00E2B898 /* All About Today-MacOS.entitlements */,
+			);
+			path = "All About Today-MacOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5591585A2337514400118A11 /* All About Today */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5591586D2337514B00118A11 /* Build configuration list for PBXNativeTarget "All About Today" */;
+			buildPhases = (
+				559158572337514400118A11 /* Sources */,
+				559158582337514400118A11 /* Frameworks */,
+				559158592337514400118A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "All About Today";
+			productName = "All About Today";
+			productReference = 5591585B2337514400118A11 /* All About Today.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B572605233B547C00627DA2 /* All About Today - iOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B57260D233B547C00627DA2 /* Build configuration list for PBXNativeTarget "All About Today - iOS Tests" */;
+			buildPhases = (
+				9B572602233B547C00627DA2 /* Sources */,
+				9B572603233B547C00627DA2 /* Frameworks */,
+				9B572604233B547C00627DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B57260C233B547C00627DA2 /* PBXTargetDependency */,
+			);
+			name = "All About Today - iOS Tests";
+			productName = "All About Today - iOS Tests";
+			productReference = 9B572606233B547C00627DA2 /* All About Today - iOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B829FAA2338D28B00E2B898 /* All About Today-MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B829FB82338D28C00E2B898 /* Build configuration list for PBXNativeTarget "All About Today-MacOS" */;
+			buildPhases = (
+				9B829FA72338D28B00E2B898 /* Sources */,
+				9B829FA82338D28B00E2B898 /* Frameworks */,
+				9B829FA92338D28B00E2B898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "All About Today-MacOS";
+			productName = "All About Today-MacOS";
+			productReference = 9B829FAB2338D28B00E2B898 /* All About Today-MacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		559158532337514400118A11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Kushal Mukherjee";
+				TargetAttributes = {
+					5591585A2337514400118A11 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					9B572605233B547C00627DA2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+						TestTargetID = 5591585A2337514400118A11;
+					};
+					9B829FAA2338D28B00E2B898 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 559158562337514400118A11 /* Build configuration list for PBXProject "All About Today" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 559158522337514400118A11;
+			productRefGroup = 5591585C2337514400118A11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5591585A2337514400118A11 /* All About Today */,
+				9B829FAA2338D28B00E2B898 /* All About Today-MacOS */,
+				9B572605233B547C00627DA2 /* All About Today - iOS Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		559158592337514400118A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559158692337514B00118A11 /* LaunchScreen.storyboard in Resources */,
+				559158662337514B00118A11 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B572604233B547C00627DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B829FA92338D28B00E2B898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B829FB22338D28C00E2B898 /* Assets.xcassets in Resources */,
+				9B829FB52338D28C00E2B898 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		559158572337514400118A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B829FC12338F4EF00E2B898 /* SupportingCode.swift in Sources */,
+				9B829F7E2338961F00E2B898 /* NewsDetailViewController.swift in Sources */,
+				559158732337733400118A11 /* APIManager.swift in Sources */,
+				559158612337514400118A11 /* FirstViewController.swift in Sources */,
+				5591585F2337514400118A11 /* AppDelegate.swift in Sources */,
+				5591587123376FCC00118A11 /* NewsTableViewCell.swift in Sources */,
+				559158752337884F00118A11 /* NewsModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B572602233B547C00627DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B572615233B54B400627DA2 /* NewsDetailViewControllerTests.swift in Sources */,
+				9B572614233B54B400627DA2 /* NewsModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B829FA72338D28B00E2B898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B829FC32339CF5C00E2B898 /* SplitViewController.swift in Sources */,
+				9B829FBC2338D3A100E2B898 /* APIManager.swift in Sources */,
+				9B829FBB2338D36E00E2B898 /* NewsModel.swift in Sources */,
+				9B829FC72339D59400E2B898 /* NewsDetailViewController.swift in Sources */,
+				9B829FCC2339F89C00E2B898 /* WindowController.swift in Sources */,
+				9B829FC52339D58200E2B898 /* NewsListViewController.swift in Sources */,
+				9B829FCE233A129500E2B898 /* NewsListCell.swift in Sources */,
+				9B829FCA2339E47A00E2B898 /* SupportingCode.swift in Sources */,
+				9B829FAE2338D28B00E2B898 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B57260C233B547C00627DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5591585A2337514400118A11 /* All About Today */;
+			targetProxy = 9B57260B233B547C00627DA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		559158672337514B00118A11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559158682337514B00118A11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9B829FB32338D28C00E2B898 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B829FB42338D28C00E2B898 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5591586B2337514B00118A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5591586C2337514B00118A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5591586E2337514B00118A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2DU4BCA44;
+				INFOPLIST_FILE = "All About Today/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KushalMukherjee.All-About-Today";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5591586F2337514B00118A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2DU4BCA44;
+				INFOPLIST_FILE = "All About Today/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KushalMukherjee.All-About-Today";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9B57260E233B547C00627DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "All About Today - iOS Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Infosys.All-About-Today---iOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/All About Today.app/All About Today";
+			};
+			name = Debug;
+		};
+		9B57260F233B547C00627DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "All About Today - iOS Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Infosys.All-About-Today---iOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/All About Today.app/All About Today";
+			};
+			name = Release;
+		};
+		9B829FB92338D28C00E2B898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "All About Today-MacOS/All About Today-MacOS.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "All About Today-MacOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Infosys.All-About-Today-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9B829FBA2338D28C00E2B898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "All About Today-MacOS/All About Today-MacOS.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "All About Today-MacOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Infosys.All-About-Today-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		559158562337514400118A11 /* Build configuration list for PBXProject "All About Today" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5591586B2337514B00118A11 /* Debug */,
+				5591586C2337514B00118A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5591586D2337514B00118A11 /* Build configuration list for PBXNativeTarget "All About Today" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5591586E2337514B00118A11 /* Debug */,
+				5591586F2337514B00118A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B57260D233B547C00627DA2 /* Build configuration list for PBXNativeTarget "All About Today - iOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B57260E233B547C00627DA2 /* Debug */,
+				9B57260F233B547C00627DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B829FB82338D28C00E2B898 /* Build configuration list for PBXNativeTarget "All About Today-MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B829FB92338D28C00E2B898 /* Debug */,
+				9B829FBA2338D28C00E2B898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 559158532337514400118A11 /* Project object */;
+}
