@@ -8,6 +8,7 @@
 
 import Foundation
 
+//let API_KEY = "Insert you API key here."
 
 class APIManager{
     
